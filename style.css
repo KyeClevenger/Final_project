@@ -1,0 +1,274 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 2135px;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 100px;
+    width: 1920px;
+    background-color: rgb(41, 190, 160);
+    position: fixed;
+    border-bottom: 5px solid rgb(48, 48, 48);
+    box-shadow: 12px 12px 12px rgb(254, 254, 254);
+}
+
+.left_nav {
+    height: 100px;
+    width: 300px;
+}
+
+.middle_nav {
+    height: 100px;
+    width: 1320px;
+}
+
+.right_nav {
+    height: 100px;
+    width: 300px;
+}
+
+.arrow {
+    font-size: 80px;
+    color: rgb(27, 93, 207);
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+
+}
+
+button {
+    background-color: rgb(27, 93, 207);
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    box-shadow: 3px 3px rgb(48, 48, 48);
+}
+
+.buttons_con {
+    height: 50px;
+    width: 300px;
+
+}
+
+.flex {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.top_middle {
+    height: 220px;
+    width: 1920px;
+    padding-top: 110px;
+}
+
+.top_middle_corner {
+    height: 200px;
+    width: 500px;
+}
+
+.top_middle_left_side {
+    width: 580px;
+    height: 200px;
+    background-color: rgb(34, 176, 198);
+    border-radius: 25px;
+    margin: 15px;
+    margin-left: -120px;
+}
+
+.top_middle_right_side {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 15px;
+    overflow: hidden;
+
+}
+
+.pic {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.top_blue {
+    height: 50px;
+    width: 580px;
+    background-color: rgb(34, 176, 198);
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+.bottom_blue {
+    height: 135px;
+    width: 580px;
+    background-color: rgb(34, 176, 198);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.about_me {
+    height: 300px;
+    width: 1920px;
+}
+
+.left_box {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(41, 190, 160);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.right_box {
+    height: 250px;
+    width: 1475px;
+    background-color: rgb(41, 190, 160);
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.middle_area {
+    height: 1200px;
+    width: 1920px;
+    display: flex;
+}
+
+.my_projects {
+    height: 75px;
+    width: 1750px;
+    background-color: rgb(34, 176, 198);
+    border-radius: 50px;
+    margin: 20px;
+    margin-left: 90px;
+
+}
+
+.left_col {
+    height: 1040px;
+    width: 875px;
+}
+
+.sections {
+    height: 490px;
+    width: 825px;
+    margin: 20px;
+    background-color: rgb(27, 93, 207);
+    border-radius: 20px;
+}
+
+.left_side {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.right_side {
+    height: 400px;
+    width: 350px;
+    background-color: rgb(41, 190, 160);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.right_col {
+    height: 1040px;
+    width: 875px;
+    margin: 20px;
+}
+
+.section2 {
+    height: 1000px;
+    width: 825px;
+    margin: 20px;
+    background-color: rgb(27, 93, 207);
+    border-radius: 20px;
+}
+
+.top_side {
+    height: 480px;
+    width: 760px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.bottom_side {
+    height: 400px;
+    width: 760px;
+    background-color: rgb(41, 190, 160);
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.logos {
+    height: 200px;
+    width: 1770px;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(27, 93, 207);
+    border-radius: 50%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 30px;
+
+}
+
+.coding_dojo {
+    height: 150px;
+    width: 500px;
+    background-color: rgb(34, 176, 198);
+    border-radius: 50px;
+    margin-left: 300px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+}
+
+

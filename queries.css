@@ -1,0 +1,180 @@
+@media(max-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        height: 3135px;
+        width: 100vw;
+        margin: 0 auto;
+    }  
+
+    .flex {
+        flex-direction: column;
+    }
+
+    nav {
+        height: 150px;
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .buttons_con {
+        flex-direction: row;
+    }
+
+    .arrow {
+        font-size: 50px;
+        margin-left: 115px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px
+    }
+
+    .top_middle {
+        height: 220px;
+        width: 100vw;
+        padding-top: 380px;
+    }
+
+    .top_middle_left_side {
+        width: 380px;
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .top_middle_right_side {
+        width: 250px;
+        height: 200px;
+    }
+
+
+    .top_blue {
+        height: 50px;
+        width: 380px;
+        margin-left: 60px;
+    }
+
+    .bottom_blue {
+        height: 135px;
+        width: 380px;
+        margin-left: 60px;
+    }
+
+    .about_me {
+        height: 300px;
+        width: 100vw;
+        margin-top: 250px;
+
+    }
+
+    .right_box {
+        height: 250px;
+        width: 100vw;
+    }
+
+    .point {
+        transform: rotate(90deg);
+    }
+
+    .my_projects {
+        height: 75px;
+        width: 350px;
+        margin-left: 15px;
+        margin-bottom: -40px;
+    }
+
+    .middle_area {
+        height: 1200px;
+        width: 100vw;
+        margin-top: 480px;
+    }
+
+    .left_col {
+        height: 930px;
+        width: 100vw;
+    }
+    
+
+    .sections {
+        height: 930px;
+        width: 100vw;
+        margin-left: -10px;
+        margin-bottom: 100px;
+    }
+
+    .left_side {
+        height: 400px;
+        width: 350px;
+    }
+
+    .right_side {
+        height: 400px;
+        width: 350px;
+    }
+
+
+    .right_col {
+        height: 930px;
+        width: 100vw;
+    }
+
+    .section2 {
+        height: 930px;
+        width: 100vw;
+        margin-top: 2200px;
+        margin-left: -20;
+    }
+
+    .top_side {
+        height: 400px;
+        width: 350px;
+    }
+
+    .bottom_side {
+        height: 400px;
+        width: 350px;
+    }
+
+    .logos {
+        height: 600px;
+        width: 100vw;
+        margin-top: 800px;
+        flex-direction: row;
+        margin-left: -30px;
+    }
+
+    .ball {
+        height: 60px;
+        width: 60px;
+    }
+
+    img{
+        height: 60px;
+        width: 60px;
+        overflow: hidden;
+    }
+
+    .coding_dojo {
+        height: 130px;
+        width: 100vw;
+        margin-top: 300px;
+        margin-left: -450px;
+    }
+
+
+
+
+
+
+
+}
