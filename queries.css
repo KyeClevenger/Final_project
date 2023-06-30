@@ -5,7 +5,7 @@
     }
 
     .container {
-        height: 3135px;
+        height: 4835px;
         width: 100vw;
         margin: 0 auto;
     }  
@@ -17,10 +17,12 @@
     nav {
         height: 150px;
         width: 100vw;
+        z-index: 1;
     }
 
     h1 {
         font-size: 40px;
+        margin-left: 10px;
     }
 
     .buttons_con {
@@ -75,6 +77,10 @@
         width: 100vw;
         margin-top: 250px;
 
+    }
+
+    .left_box{
+        z-index: -1;
     }
 
     .right_box {
@@ -138,6 +144,13 @@
     .top_side {
         height: 400px;
         width: 350px;
+        overflow: hidden;
+    }
+
+    .vids2{
+        height: 420px;
+        width: 350px;
+        margin-left: 10px;
     }
 
     .bottom_side {
@@ -171,7 +184,11 @@
         margin-left: -450px;
     }
 
-
+    #projects{
+        margin-bottom: 50px;
+    }
+    
+    html { scroll-behavior: smooth;}
 
 
 

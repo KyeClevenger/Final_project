@@ -43,6 +43,7 @@ h1 {
     color: white;
     text-align: center;
     font-size: 80px;
+    margin-left: -150px;
 
 }
 
@@ -119,6 +120,7 @@ button {
     border-radius: 10px;
 }
 
+
 .about_me {
     height: 300px;
     width: 1920px;
@@ -176,6 +178,14 @@ button {
     background-color: white;
     margin: 20px;
     border-radius: 20px;
+    overflow: hidden;
+}
+
+.vids{
+    height: 500px;
+    margin-left: -250px;
+    margin-top: -20px;
+    
 }
 
 .right_side {
@@ -184,6 +194,13 @@ button {
     background-color: rgb(41, 190, 160);
     margin: 20px;
     border-radius: 20px;
+}
+
+.vids1{
+    height: 400px;
+    width: 380px;
+    margin-top: -20px;
+    margin-left: -13px;
 }
 
 .right_col {
@@ -215,6 +232,13 @@ button {
     background-color: rgb(41, 190, 160);
     margin: 30px;
     border-radius: 20px;
+}
+
+.vids2{
+    height: 450px;
+    margin-left: 150px;
+    margin-top: 20px;
+
 }
 
 .logos {
@@ -269,6 +293,10 @@ img{
     height: 100px;
     width: 100px;
     overflow: hidden;
+}
+
+#projects{
+    margin-bottom: 80px;
 }
 
 html { scroll-behavior: smooth;}

@@ -1,15 +1,31 @@
 
 function scrollWin1() {
 
-    window.scrollTo(0,0);
-  }
+  window.scrollTo(0, 0);
+}
 
-function scrollWin2() {
 
-    window.scrollTo(0,500);
-  }
+function scrollToTargetAdjusted() {
+  var element = document.getElementById('projects');
+  var headerOffset = 180;
+  var elementPosition = element.getBoundingClientRect().top;
+  var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-  function scrollWin3() {
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth"
+  });
+}
 
-    window.scrollTo(0,1200);
-  }
+
+function scrollToTargetAdjusted2() {
+  var element = document.getElementById('dojo');
+  var headerOffset = 20;
+  var elementPosition = element.getBoundingClientRect().top;
+  var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth"
+  });
+}
